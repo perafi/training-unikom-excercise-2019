@@ -38,8 +38,10 @@
 	Order adalah sisi ONE dan order line adalah sisi MANY
 	
     - ```@JoinColumn```
+	Melakukan Join pada kolom foreign key ke kolom primary key
     
 	- ```@JoinTable```
+	Melakukan join dari 2 tabel
 	
     - ```@GeneratedValue```
 	Untuk menjalankan fungsi generated property
@@ -56,22 +58,49 @@
 	yang dimiliki oleh class tersebut.
 	
 4. Jelaskan menurut pendapat anda mengenai container / context di spring framework?
-
-
+	Container di spring framework berkaitan dengan hirarki inheritance
+	Selain dapat melihat keterkaitan antar kelas yang satu dengan yang lainnya
+	juga dapat melihat metode penting yang diwariskan dari superclass.
+	
 5. Jelaskan menurut pendapat anda fungsi dari beberapa fitur annotation di spring frameork seperti berikut:
     - ```@ComponentScan```
+	mengidentifikasi package dasar
+	
     - ```@Autowired```
+	menghubungkan dengan class referensi
+	
     - ```@Bean```
+	class awal
+	
     - ```@Component```
+	Mengatur repository service controller
+	
     - ```@Repository```
-    - ```@Service```
-    - ```@Controller```
+    layer
+	
+	- ```@Service```
+    servis layer
+	
+	- ```@Controller```
+	presentasi kepada user 
+
     - ```@RestController```
+	presentasi kepada user melalui API
+	
     - ```@RequestMapping```
+	Melakukan Request terhadap API yang di buat/ meminta data kepada API
+	
     - ```@GetMapping```
+	Menarik data melalui API
+	
     - ```@PostMapping```
+	Untuk melakukan organisasi data melalui body tidak pada link
+	
     - ```@PutMapping```
-    - ```@DeleteMapping```
+	Untuk menyimpan data pada mode API
+    
+	- ```@DeleteMapping```
+	Untuk delete data pada Mode API
 
 ## Cara mengerjakan
 
