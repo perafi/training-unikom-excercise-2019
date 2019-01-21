@@ -35,4 +35,5 @@ alter table detail_transaksi
         references transaksi (id) on update cascade on delete restrict;
 
 insert into detail_transaksi (id, transaksi_id, produk_id, quantity,  total_harga) values
-('001', '001', '001', 3, 36000);
+('001', '001', '001', 3, 30000),
+('002', '001', '003', 2, 24000);

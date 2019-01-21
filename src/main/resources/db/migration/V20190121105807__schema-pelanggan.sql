@@ -6,5 +6,5 @@ create table pelanggan
 ) engine = InnoDB;
 
 insert into pelanggan (id, nama, alamat) values
-('001', 'Perdana', 'Bogor'),
-('002', 'Citra', 'Bandung');
+('001', 'Asep', 'Bogor'),
+('002', 'Ujang', 'Bandung');
